@@ -1,10 +1,9 @@
-myErnieApp.controller('ernieController', ['$http', function ($http) {
+myErnieApp.controller('ernieController', ['$http', function($http) {
 	self = this;
-
-	self.sayHelloToErnie = function () {
+	self.sayHelloToErnie = function() {
 		console.log('I am in the ernieController');
-
 	};
-
 	self.sayHelloToErnie();
 }]);
+
+
